@@ -47,5 +47,6 @@ if __name__ == '__main__':
     personas = PersonaDAO.seleccionar()
     for persona in personas:
         log.debug(persona)
+        
 
 
