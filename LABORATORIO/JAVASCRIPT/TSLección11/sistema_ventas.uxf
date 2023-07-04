@@ -23,7 +23,7 @@ de objetos Producto y Orden
 Responsabilidades
 --Ejecuctar la prueba de 
 la aplicación de Ventas
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>130</y><w>210</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;190;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>360</y><w>210</w><h>230</h></coordinates><panel_attributes>Producto
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>50</x><y>400</y><w>210</w><h>230</h></coordinates><panel_attributes>Producto
 --
 idProducto: number
 nombre: string
@@ -39,4 +39,5 @@ setPrecio(precio)
 toString(): string
 --
 Responsibilities
--- Crear objeto de tipo Producto</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>300</y><w>240</w><h>80</h></coordinates><panel_attributes>&lt;&lt;Un Producto se agrega a una Orden&gt;&gt;</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element></diagram>
+-- Crear objeto de tipo Producto</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>290</x><y>160</y><w>190</w><h>40</h></coordinates><panel_attributes>lt=&lt;.&gt;
+&lt;&lt;someStereotype&gt;&gt;</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>140</x><y>300</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element></diagram>
