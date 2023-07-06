@@ -64,13 +64,13 @@ class Orden{
         if (this._productos.leght < Orden.getMAX_PRODUCTOS){
             this._productos.push(producto);//Tenemos 2 tipos de sintaxis: 1
            // this._productos[this._contadorProductoAgregados++] = producto;
-            else {
+        }
+           else{
                 console.log("Nose pueden agregar mas productos");
             }
         }
         //Fin del metoo agregar producto
 
     }
-
-}//Fin de la clase orden
+//Fin de la clase orden
 
